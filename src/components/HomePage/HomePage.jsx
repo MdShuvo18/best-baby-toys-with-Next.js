@@ -1,11 +1,12 @@
 import Footer from "../Shared/Footer/Footer";
-import Navbar from "../Shared/Navbar/Navbar";
+import Header from "../Shared/Header/Header";
+
 
 
 const HomePage = () => {
     return (
         <div>
-            <Navbar />
+            <Header/>
             This is Home
             <Footer />
         </div>
