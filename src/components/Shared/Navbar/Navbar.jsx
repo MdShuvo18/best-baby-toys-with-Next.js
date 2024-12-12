@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import React, { useState } from "react";
+import { FiShoppingCart } from "react-icons/fi";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +15,9 @@ const Navbar = () => {
                             className="rounded-xl"
                             src="https://i.ibb.co/wz2VQJQ/Purple-Pink-Pastel-Baby-Blocks-Toys-Store-Logo.png"
                             alt="Logo"
-                            width={144} 
+                            width={144}
                             height={48}
-                            priority 
+                            priority
                         />
                     </a>
 
@@ -89,7 +90,9 @@ const Navbar = () => {
                         </a>
                     </div>
 
-                    <div className="relative mt-4 md:mt-0">
+                  <div className="flex items-center space-x-5">
+                    <FiShoppingCart className="w-8 h-8"/>
+                  <div className="relative mt-4 md:mt-0">
                         <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                             <svg
                                 className="w-5 h-5 text-gray-400"
@@ -105,13 +108,14 @@ const Navbar = () => {
                                 ></path>
                             </svg>
                         </span>
-
-                        <input
-                            type="text"
-                            className="w-full py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
-                            placeholder="Search"
-                        />
+                      
+                            <input
+                                type="text"
+                                className="w-full py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+                                placeholder="Search"
+                            />
                     </div>
+                  </div>
                 </div>
             </div>
         </nav>
