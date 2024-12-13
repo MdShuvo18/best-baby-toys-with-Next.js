@@ -1,5 +1,5 @@
 import HeaderSection from "@/components/reUseableComponent/HeaderSection";
-import ToyCard from "./ToyCard";
+import ToyCard from "../../../reUseableComponent/ToyCard";
 import Link from "next/link";
 
 
