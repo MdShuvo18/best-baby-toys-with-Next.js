@@ -11,11 +11,12 @@ const ToyCard = ({ imageSrc, altText, clipPathStyle, title }) => {
                 height={160}
                 src={imageSrc}
                 alt={altText}
+                priority
             />
             <h1
-                className="mt-auto text-lg italic font-extrabold text-red-600 text-center"
+                className="mt-auto text-xl italic font-extrabold text-sky-600 text-center"
                 style={{
-                    textShadow: '2px 2px 5px rgba(0, 0, 0, 0.5)',
+                    textShadow: '2px 2px 5px rgba(0, 0, 0, 0.4)',
                 }}
             >
                 {title}

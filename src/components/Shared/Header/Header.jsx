@@ -147,17 +147,13 @@ const Header = () => {
                             <span className="text-sky-800">Enjoy</span>{" "}
                         </h1>
                         <div className="relative inline-block mt-4">
-                            <button className="relative w-full px-5 py-2 text-sm font-medium text-white capitalize transition-transform duration-300 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500 z-10">
-                                Shop Now
-                            </button>
-                            <span
-                                className="absolute inset-0 rounded-md bg-gradient-to-r from-blue-500 via-sky-500 to-blue-500 opacity-50 animate-pulse"
-                                style={{
-                                    padding: "2px",
-                                    zIndex: 0,
-                                    filter: "blur(2px)",
-                                }}
-                            ></span>
+                        <a href="" class="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-sky-600 border-2 border-sky-600 rounded-full hover:text-white group hover:bg-gray-50">
+    <span class="absolute left-0 block w-full h-0 transition-all bg-sky-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+    <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </span>
+    <span class="relative text-lg font-semibold">Button Text</span>
+</a>
                         </div>
                     </div>
                 </div>
