@@ -81,7 +81,7 @@ const Header = () => {
                                     Home
                                 </a>
                                 <a
-                                    href="#"
+                                    href=""
                                     className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
                                 >
                                     Products
@@ -131,10 +131,9 @@ const Header = () => {
             </nav>
 
             <div
-                className="w-full bg-center bg-cover h-[46rem]"
+                className="w-full h-[30rem] sm:h-[36rem] md:h-[42rem] lg:h-[46rem] bg-center bg-cover"
                 style={{
-                    backgroundImage:
-                        "url('https://i.ibb.co.com/V9vtjPx/Rectangle-40.png')",
+                    backgroundImage: "url('https://i.ibb.co.com/V9vtjPx/Rectangle-40.png')",
                 }}
             >
                 <div className="flex items-center justify-end h-full pr-10">
